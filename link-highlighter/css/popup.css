@@ -1,0 +1,33 @@
+div {
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn {
+    width: 300px;
+    padding: 4px;
+    margin: 3% auto;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#btn-set {
+    background-color: rgba(111, 111, 255, 0.5);
+}
+
+#btn-reset {
+    background-color: rgba(225, 111, 111, 0.5);
+}
+
+#btn-set:hover {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+#btn-reset:hover {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}

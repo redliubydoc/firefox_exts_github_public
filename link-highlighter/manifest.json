@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "link-highlighter",
+    "version": "1.0",
+    
+    "icons": {
+        "32": "icons/search-32.png",
+        "48": "icons/search-48.png",
+        "64": "icons/search-64.png",
+        "128": "icons/search-128.png"
+    },
+
+    "permissions": [
+        "activeTab"
+    ],
+
+    "browser_action": {
+        "default_icon": "icons/search-48.png",
+        "default_title": "link-highlighter",
+        "default_popup": "html/popup.html"
+    }
+}
